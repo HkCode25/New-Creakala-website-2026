@@ -1,7 +1,7 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.css'
-// import Banner from './components/Banner'
-// import Nav from './components/Nav'
+import Banner from './components/Banner'
+import Nav from './components/Nav'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -12,8 +12,9 @@ function App() {
 
           <div>
             <h1>This is test</h1>
-          {/* <Nav />
-          <Banner /> */}
+
+          <Nav />
+          <Banner greet="Hello World!"/>
           </div>
 
       </section>
